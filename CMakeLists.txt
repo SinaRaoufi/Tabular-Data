@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(WT)
+project(TabularData)
 set(CMAKE_C_STANDARD 11)
 add_executable(app src/App.c src/main.c src/input.c src/table.c)
 include_directories(include)
