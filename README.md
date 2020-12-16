@@ -53,5 +53,17 @@ The example above delete row 2 from the table with name table_name
 
     Exit the program.
 
+# Requirements
+- CMake
+- C++ Compiler (GCC is recommended)
+
+```
+cmake . -B build
+```
+After the MakeFile was created:
+```
+make -C build
+```
+
 # Contributing
 Your contributions are always welcome!
